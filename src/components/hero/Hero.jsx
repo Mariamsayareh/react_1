@@ -4,8 +4,8 @@ import heroImg from './../../assets/img/hero.webp'
 function Hero() {
   return (
     <>
-    <div className='w-100'>
-      <img src={heroImg} alt="Hero Image" />
+    <div className='py-5 mt-4'>
+      <img src={heroImg} className='img-fluid w-100' alt="Hero Image" />
       </div>
     </>
   );
