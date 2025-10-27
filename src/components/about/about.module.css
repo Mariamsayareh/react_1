@@ -1,0 +1,15 @@
+.bgMain {
+    background-color: #1abc9c;
+}
+
+.about {
+    font-size: 60px;
+}
+
+.actve:hover {
+    background-color: white;
+}
+
+.actve:hover .actveText {
+    color: black !important;
+}
