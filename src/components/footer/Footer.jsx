@@ -1,11 +1,10 @@
-import style from './hero.module.css';
-import heroImg from './../../assets/img/hero.webp'
+import style from './footer.module.css';
 
-function Hero() {
+
+function Footer() {
   return (
     <>
     </>
   );
 }
-
-export default Hero;
+export default Footer;
