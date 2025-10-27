@@ -1,0 +1,29 @@
+.colorText {
+    background-color: #1abc9c;
+}
+
+.colorText:hover {
+    background-color: #1abc9c !important;
+}
+
+.comtact {
+    font-size: 55px;
+    color: #2c3e50;
+}
+
+.forms::placeholder {
+    color: #495057;
+    font-size: 24px !important;
+}
+
+.forms {
+    all: unset;
+    border-bottom: 2px solid #495057;
+    font-size: 18px;
+    width: 100%;
+}
+
+.forms:focus {
+    outline: none;
+    box-shadow: none;
+}
