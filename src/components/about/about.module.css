@@ -3,7 +3,7 @@
 }
 
 .about {
-    font-size: 60px;
+    font-size: clamp(1.8rem, 7vw, 4rem);
 }
 
 .actve:hover {

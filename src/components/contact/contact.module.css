@@ -7,7 +7,7 @@
 }
 
 .comtact {
-    font-size: 55px;
+    font-size: clamp(1.5rem, 6vw, 3.5rem);
     color: #2c3e50;
 }
 
