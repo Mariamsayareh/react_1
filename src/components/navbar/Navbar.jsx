@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav className={`${style.Navbar} p-3 navbar navbar-expand-lg fixed-top `}>
         <div className="container-fluid d-flex justify-content-around align-items-center">
-          <Link className="navbar-brand fs-3 fw-bold text-uppercase text-white" to="#">
+          <Link className="navbar-brand fs-3 fw-bold text-uppercase text-white" to="/">
             Start Bootstrap
           </Link>
 
