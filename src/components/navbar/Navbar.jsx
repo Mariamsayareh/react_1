@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import style from './Navbar.module.css';
 
 function Navbar() {
@@ -5,9 +6,9 @@ function Navbar() {
     <>
       <nav className={`${style.Navbar} p-3 navbar navbar-expand-lg fixed-top `}>
         <div className="container-fluid d-flex justify-content-around align-items-center">
-          <a className="navbar-brand fs-3 fw-bold text-uppercase text-white" href="#">
+          <Link className="navbar-brand fs-3 fw-bold text-uppercase text-white" to="#">
             Start Bootstrap
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -24,13 +25,13 @@ function Navbar() {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav text-uppercase fs-5 fw-bold text-white">
               <li className="nav-item">
-                <a className={`nav-link px-3 text-white ${style.actve}`} href="#">Portfolio</a>
+                <Link className={`nav-link px-3 text-white ${style.actve}`} to="/Portfolio">Portfolio</Link>
               </li>
               <li className="nav-item">
-                <a className={`nav-link px-3 text-white ${style.actve}`} href="#">About</a>
+                <Link className={`nav-link px-3 text-white ${style.actve}`} to="/About">About</Link>
               </li>
               <li className="nav-item">
-                <a className={`nav-link px-3 text-white ${style.actve}`} href="#">Contact</a>
+                <Link className={`nav-link px-3 text-white ${style.actve}`} to="/Contact">Contact</Link>
               </li>
             </ul>
           </div>

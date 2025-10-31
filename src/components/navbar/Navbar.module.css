@@ -6,6 +6,8 @@
     transition: 'color 0.3s ease',
 }
 
-.actve:hover {
-    color: aquamarine;
+.actve:focus {
+    border: 2px;
+    border-radius: 6%;
+    background-color: #1abc9c !important;
 }
